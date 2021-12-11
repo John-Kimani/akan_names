@@ -1,0 +1,12 @@
+/* base template styles */
+
+/* nav start */
+
+/* nav end */
+
+/* footer start */
+.row-footer{
+    justify-content: space-evenly;
+    background-color: #FCA000;
+}
+/* footer end */
