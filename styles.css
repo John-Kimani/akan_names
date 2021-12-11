@@ -1,7 +1,16 @@
 /* base template styles */
 
 /* nav start */
-
+.nav-color{
+    background-color: #FCA000;
+    color: black;
+}
+.nav-color ul a{
+    color: black;
+}
+.nav-color ul a:hover{
+    color: white;
+}
 /* nav end */
 
 /* footer start */
