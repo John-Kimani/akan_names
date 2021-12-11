@@ -3,3 +3,34 @@
     height: 800px;
     background-color: #D80025;
 }
+h1{
+    text-align: center;
+}
+.aboutrow{
+    width: 98%;
+    margin-left: 1%;
+    justify-content: space-evenly;
+}
+.aboutimage1{
+    height: 300px;
+}
+.aboutcard{
+    margin-top: 2%;
+    width: 450px;
+    height: 250px;
+}
+
+.namerow{
+    justify-content: space-evenly;
+}
+#day{
+    text-align: center;
+}
+.namerow ul{
+    list-style: none;
+}
+.namecard{
+    width: 98%;
+    margin-top: 5%;
+    margin-left: 1%;
+}
