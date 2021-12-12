@@ -11,7 +11,7 @@
 </head>
 <body>
             <!-- nav start -->
-            <nav class="navbar navbar-expand-lg navbar-light nav-color">
+            <nav class="navbar navbar-expand-lg navbar-light nav-color container">
                 <div class="container-fluid">
                     <!-- logo start -->
                     <a class="navbar-brand" href="index.html">
@@ -45,12 +45,16 @@
               <div class="container">
                 <div class="container-fluid">
                   <div class="generatorpage" id="generatorpage">
-                    <h1>Our Akan Name Generator</h1>
+                    <div class="gentext">
+                      <h1>Our Akan Name Generator</h1>
+                      <p></p>
+
+                    </div>
 
                     <div class="row genrow">
-                      <img class="col-3" src="images/masks.png" alt="masks of africa" id="masks">
+                      <img class="col-md-3" src="images/masks.png" alt="masks of africa" id="masks">
                       
-                      <form onsubmit="return false" class="col-6">
+                      <form onsubmit="return false" class="col-md-6">
                         <div class="form-group">
                           <label>Date</label>
                           <input type="text" class="form-control" placeholder="Your date of birth" id="date" max="31" min="1" maxlength="2" required>
@@ -67,19 +71,19 @@
                           <small class="form-text text-muted">Year</small>
                         </div>
                         <div class="form-check">
-                          <input type="checkbox" class="form-check-input" value="male" name="male" id="gender" required>
+                          <input type="radio"  value="male" name="male" id="gender" required>
                           <label class="form-check-label" for="exampleCheck1">Male</label>
                         </div>
                         <div class="form-check">
-                          <input type="checkbox" class="form-check-input" value="female" name="female" id="gender" required>
+                          <input type="radio" value="female" name="female" id="gender" required>
                           <label class="form-check-label" for="exampleCheck1">Female</label>
                         </div>
-                        <button onclick="yourAkanName()" type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn" id="submit" onclick="yourAkanName()">Submit</button>
                       </form>
                     </div>
                     <div class="results">
                       <p class="jina">
-
+                        
                       </p>
                       <p class="siku">
 
@@ -95,7 +99,7 @@
               <!-- main home end -->
         
               <!-- footer start -->
-              <footer class="container-fluid">
+              <footer class="container container-fluid">
                 <div class="row row-footer">
                   <div class="col-md-3" id="copyright">
                     <p>

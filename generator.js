@@ -16,6 +16,7 @@ function validate () {
 
 if (date == " " || month == " " || year == " "){
     return false;
+    
 }
 else{
     var cc = year.slice(2);
