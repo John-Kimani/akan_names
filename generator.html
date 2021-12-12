@@ -50,7 +50,7 @@
                     <div class="row genrow">
                       <img class="col-3" src="images/masks.png" alt="masks of africa" id="masks">
                       
-                      <form class="col-6">
+                      <form onsubmit="return false" class="col-6">
                         <div class="form-group">
                           <label>Date</label>
                           <input type="text" class="form-control" placeholder="Your date of birth" id="date" max="31" min="1" maxlength="2" required>
@@ -74,8 +74,17 @@
                           <input type="checkbox" class="form-check-input" value="female" name="female" id="gender" required>
                           <label class="form-check-label" for="exampleCheck1">Female</label>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button onclick="yourAkanName()" type="submit" class="btn btn-primary">Submit</button>
                       </form>
+                    </div>
+                    <div class="results">
+                      <p class="jina">
+
+                      </p>
+                      <p class="siku">
+
+                      </p>
+
                     </div>
                   </div>
         
@@ -109,5 +118,11 @@
                 </div>
               </footer>
               <!-- footer end -->
+
+              <!-- JS Scripts -->
+              <script src="generator.js">
+
+              </script>
+
 </body>
 </html>

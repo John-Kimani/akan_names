@@ -42,13 +42,26 @@ else{
         console.log(gender);
 
 
-        jinsia.forEach((gender) ==> {
+        jinsia.forEach((gender) => {
             if(gender.checked){
                 console.log(`You Checked: ${gender.value}`);
                 console.log(gender.value);
                 console.log(gender);
 
+                // conditions
+                if (gender.value === "male"){
+                    document.querySelector(".jina").innerHTML = "Your Akan Name is" + maleNames[validate()];
+                    document.querySelector(".siku").innerHTML = "Your Day of Birth is" + weekDays[validate()];
+                    console.log("Your Akan Name is " + maleNames[validate()]);
+                }
 
+
+
+                if (gender.value === "female"){
+                    document.querySelector(".jina").innerHTML = "Your Akan Name is" + femaleNames[validate()];
+                    document.querySelector(".siku").innerHTML = "Your Day of Birth is" + weekDays[validate()];
+                    console.log("Your Akan Name is " + femaleNames[validate()]);
+                }
             }
         })
 
