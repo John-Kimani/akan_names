@@ -1,5 +1,15 @@
+body{
+    background-image: url(images/african-landscape.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .generatorpage{
     border: 1px solid #D80025;
-    height: 800px;
+    height: 780px;
     background-color: #D80025;
+}
+
+#masks{
+    height: 250px;
 }
