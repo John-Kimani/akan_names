@@ -19,10 +19,10 @@ Repository link: [Akan Names Generator](https://github.com/John-Kimani/akan_name
 
 ### BDD
 * Objectives
-1.User inputs their date, month and year of birth.
-2.User then selects their gender in my case female or male.
-3.On clicking Akan Names Generator, calculations are done on the web.
-4.The web displays their Akan Names and the day of the week that they were born.
+1. User inputs their date, month and year of birth.
+2. User then selects their gender in my case female or male.
+3. On clicking Akan Names Generator, calculations are done on the web.
+4. The web displays their Akan Names and the day of the week that they were born.
 
 ## Author Info
 Author: John Kimani
