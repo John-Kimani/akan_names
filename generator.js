@@ -30,3 +30,12 @@ else{
 }
 
 // day of the week formula end sample 1
+
+// akan name submit button function start
+
+    function yourAkanName(){
+        let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+        let femaleNames = ["Akosua", "Adwoa", "Abenna", "Akua", "Yaa", "Afua", "Ama"];
+        let weekDays = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        
+    }
