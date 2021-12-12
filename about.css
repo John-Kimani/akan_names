@@ -1,14 +1,19 @@
+body{
+    background-image: url(images/african-landscape.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .aboutpage{
-    border: 1px solid #D80025;
+    /* border: 1px solid #D80025; */
     height: 800px;
-    background-color: #D80025;
+    background-color: rgba(252, 160, 0, 0.9);
 }
 h1{
     text-align: center;
 }
 .aboutrow{
-    width: 98%;
-    margin-left: 1%;
+    /* margin-left: 1%; */
     justify-content: space-evenly;
 }
 .aboutimage1{
