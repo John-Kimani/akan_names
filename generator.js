@@ -37,5 +37,19 @@ else{
         let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
         let femaleNames = ["Akosua", "Adwoa", "Abenna", "Akua", "Yaa", "Afua", "Ama"];
         let weekDays = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-        
+
+        var jinsia = document.getElementById("gender");
+        console.log(gender);
+
+
+        jinsia.forEach((gender) ==> {
+            if(gender.checked){
+                console.log(`You Checked: ${gender.value}`);
+                console.log(gender.value);
+                console.log(gender);
+
+
+            }
+        })
+
     }
