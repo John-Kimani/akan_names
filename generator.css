@@ -9,7 +9,12 @@ body{
     height: 780px;
     background-color: #D80025;
 }
-
+.genrow{
+    justify-content: space-around;
+    border: 1px solid white;
+    width: 98%;
+    margin-left: 1%;
+}
 #masks{
     height: 250px;
 }
