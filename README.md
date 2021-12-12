@@ -3,7 +3,7 @@ This Website enables anyone to know the day of the week he/she was born and also
 Akan names come from traditional naming system of the akan people who largely are found in the west of africa.
 
 # LIVE DEMO
-[live](https://john-kimani.github.io/#####)
+[live](https://john-kimani.github.io/akan_names/)
 
 ## Get Started
 To get a local copy to your machine.
@@ -19,9 +19,10 @@ Repository link: [Akan Names Generator](https://github.com/John-Kimani/akan_name
 
 ### BDD
 * Objectives
-1.
-2.
-3.
+1.User inputs their date, month and year of birth.
+2.User then selects their gender in my case female or male.
+3.On clicking Akan Names Generator, calculations are done on the web.
+4.The web displays their Akan Names and the day of the week that they were born.
 
 ## Author Info
 Author: John Kimani
