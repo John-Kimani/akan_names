@@ -1,13 +1,15 @@
-.homepage{
-    height: 780px;
+body{
     background-image: url(images/african-landscape.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.homepage{
+    height: 780px;
+}
 .greetings{
     text-align: center;
-    padding-top: 15px;
+    padding-top: 35px;
 }
 #createbtn{
     background-color: #FCA000;
@@ -25,20 +27,20 @@
 }
 
 .home-row{
-    height: 500px;
+    height: 450px;
     justify-content: space-around;
     width: 96%;
     margin-left: 2%;
-    margin-top: 6%;
+    margin-top: 4%;
 }
 .homeimage{
     height: 350px;
     margin-top: 10%;
 }
 .homecard{
-    height: 50%;
-    margin-top: 4%;
-    padding-top: 4%;
+    height: 70%;
+    margin-top: 2%;
+    padding-top: 1%;
 }
 .homecard h3{
     color: #D80025;
