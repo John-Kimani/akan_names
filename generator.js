@@ -1,10 +1,10 @@
 // validate user input
 
-function validate () {
+function validateform() {
     var date = document.getElementById("date").value;
     var month = document.getElementById("month").value;
     var year = document.getElementById("year").value;
-}
+
 
 // initial day of the week formula start
 
@@ -13,6 +13,7 @@ function validate () {
 // initial day of the week formula end
 
 // day of the week formula start sample 1
+
 
 if (date == " " || month == " " || year == " "){
     return false;
@@ -28,6 +29,7 @@ else{
     let dayOfTheWeek = dayDate.getDay();
 
     return dayOfTheWeek;
+}
 }
 
 // day of the week formula end sample 1
