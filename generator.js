@@ -84,6 +84,37 @@ function validate(){
                     alert(akanFemaleNames);
                     document.querySelector(".jina").innerHTML= "Your Akan Name is " + " " + akanFemaleNames
                 }
+                else {
+                    var akanMaleNames;
+                    switch(realDay){
+                        case 0:
+                            akanMaleNames = "Kwasi";
+                            break;
+                        case 1:
+                            akanMaleNames = "Kwadwo";
+                            break;
+                        case 2:
+                            akanMaleNames = "Kwabena";
+                            break;
+                        case 3:
+                            akanMaleNames = "Kwaku";
+                            break;
+                        case 4:
+                            akanMaleNames = "Yaw";
+                            break;
+                        case 5:
+                            akanMaleNames = "Kofi";
+                            break;
+                        case 6:
+                            akanMaleNames = "Kwame";
+                                    break;
+                    }
+    
+                }
+                alert(akanMaleNames);
+                document.querySelector(".jina").innerHTML= "Your Akan Name is " + " " + akanMaleNames
+                document.querySelector(".siku").innerHTML= "Your Day of Birth was " + " " + realDay
+
 
             }
         }
