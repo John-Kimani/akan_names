@@ -51,6 +51,40 @@ function validate(){
                 }
                 alert(realDay);
 
+                // assign akan names
+                var gender = document.querySelector('input[id = "gender"]:checked').value;
+
+                // female names
+                if (gender === "female"){
+                    var akanFemaleNames;
+                    switch(realDay){
+                        case 0:
+                            akanFemaleNames = "Akosua";
+                            break;
+                        case 1:
+                            akanFemaleNames = "Adwoa";
+                            break;
+                        case 2:
+                            akanFemaleNames = "Abenaa";
+                            break;
+                        case 3:
+                            akanFemaleNames = "Akua";
+                            break;
+                        case 4:
+                            akanFemaleNames = "Yaa";
+                            break;
+                        case 5:
+                            akanFemaleNames = "Afua";
+                            break;
+                        case 6:
+                            akanFemaleNames = "Ama";
+                                    break;
+                    }
+
+                    alert(akanFemaleNames);
+                    document.querySelector(".jina").innerHTML= "Your Akan Name is " + " " + akanFemaleNames
+                }
+
             }
         }
 }
