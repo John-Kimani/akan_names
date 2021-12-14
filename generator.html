@@ -70,15 +70,13 @@
                           <input type="text" class="form-control" placeholder="Your year of birth" id="year" max="2050" min="1940" maxlength="4" required>
                           <small class="form-text text-muted">Year</small>
                         </div>
-                        <div class="form-check">
-                          <input type="radio"  value="male" name="male" id="gender" required>
-                          <label class="form-check-label" for="exampleCheck1">Male</label>
+                        <div>
+                          <input type="radio"  value="male" name="gender" id="male" required>
+                          <label class="form-check-label" for="male">Male</label>
+                          <input type="radio" value="female" name="gender" id="female" required>
+                          <label class="form-check-label" for="female">Female</label>
                         </div>
-                        <div class="form-check">
-                          <input type="radio" value="female" name="female" id="gender" required>
-                          <label class="form-check-label" for="exampleCheck1">Female</label>
-                        </div>
-                        <button type="submit" class="btn" id="submit" onclick="yourAkanName()">Submit</button>
+                        <Input class="submit" type="submit" id="submit" onclick="validate()">
                       </form>
                     </div>
                     <div class="results">
