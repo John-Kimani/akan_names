@@ -71,12 +71,12 @@
                           <small class="form-text text-muted">Year</small>
                         </div>
                         <div>
-                          <input type="radio"  value="male" name="male" id="gender">
-                          <label class="form-check-label" for="exampleCheck1">Male</label>
-                          <input type="radio" value="female" name="female" id="gender">
-                          <label class="form-check-label" for="exampleCheck1">Female</label>
+                          <input type="radio"  value="male" name="gender" id="male" required>
+                          <label class="form-check-label" for="male">Male</label>
+                          <input type="radio" value="female" name="gender" id="female" required>
+                          <label class="form-check-label" for="female">Female</label>
                         </div>
-                        <button type="submit" class="btn" id="submit" onclick="validate()">Submit</button>
+                        <Input class="submit" type="submit" id="submit" onclick="validate()">
                       </form>
                     </div>
                     <div class="results">

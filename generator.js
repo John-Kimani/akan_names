@@ -26,36 +26,41 @@ function validate(){
                 var day =  ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7
                 var realDay=Math.ceil(day);
 
-                alert(realDay);
+                // alert(realDay);
+                // console.log(date, month, year);
+                // console.log(yy, mm, dd, cc, day);
+                // console.log(realDay);
 
-                if (realDay == 0){
-                    alert("born on Sunday")
-                }
-                else if (realDay == 1) {
-                    alert("born on Monday")
-                }
-                else if (realDay == 2) {
-                    alert("born on Tuesday")
-                }
-                else if (realDay == 3) {
-                    alert("born on Wednesday")
-                }
-                else if (realDay == 4) {
-                    alert("born on Thursday")
-                }
-                else if (realDay == 5) {
-                    alert("born on Friday")
-                }
-                else {
-                    alert("born on Saturday")
-                }
-                alert(realDay);
+                // if (realDay == 0){
+                //     alert("born on Sunday")
+                // }
+                // else if (realDay == 1) {
+                //     alert("born on Monday")
+                // }
+                // else if (realDay == 2) {
+                //     alert("born on Tuesday")
+                // }
+                // else if (realDay == 3) {
+                //     alert("born on Wednesday")
+                // }
+                // else if (realDay == 4) {
+                //     alert("born on Thursday")
+                // }
+                // else if (realDay == 5) {
+                //     alert("born on Friday")
+                // }
+                // else if (realDay == 6) {
+                //     alert("born on Saturday")
+                // }
+                // alert(realDay);
 
                 // assign akan names
-                var gender = document.querySelector('input[id = "gender"]:checked').value;
+                var gender = document.querySelector('input[type = "radio"]:checked').value;
+                var female = document.getElementById('female');
+                var male = document.getElementById('male');
 
                 // female names
-                if (gender === "female"){
+                if (female.checked == true){
                     var akanFemaleNames;
                     switch(realDay){
                         case 0:
@@ -81,10 +86,11 @@ function validate(){
                                     break;
                     }
 
-                    alert(akanFemaleNames);
+                    // alert(akanFemaleNames);
                     document.querySelector(".jina").innerHTML= "Your Akan Name is " + " " + akanFemaleNames
+                    document.querySelector(".siku").innerHTML= "Your Day of Birth was " + " " + getDayOfBirth()
                 }
-                else {
+                else if (male.checked == true){
                     var akanMaleNames;
                     switch(realDay){
                         case 0:
@@ -109,13 +115,40 @@ function validate(){
                             akanMaleNames = "Kwame";
                                     break;
                     }
-    
+                    document.querySelector(".jina").innerHTML= "Your Akan Name is " + " " + akanMaleNames
+                    document.querySelector(".siku").innerHTML= "Your Day of Birth was " + " " + getDayOfBirth()
                 }
-                alert(akanMaleNames);
-                document.querySelector(".jina").innerHTML= "Your Akan Name is " + " " + akanMaleNames
-                document.querySelector(".siku").innerHTML= "Your Day of Birth was " + " " + realDay
+                function getDayOfBirth() {
+                    var dayOfBirth = realDay;
+                    if (dayOfBirth == 0){
+                        return "Sunday"
+                    }
+                    else if (dayOfBirth == 1) {
+                        return"Monday"
+                    }
+                    else if (dayOfBirth == 2) {
+                        return"Tuesday"
+                    }
+                    else if (dayOfBirth == 3) {
+                        return"Wednesday"
+                    }
+                    else if (dayOfBirth == 4) {
+                        return"Thursday"
+                    }
+                    else if (dayOfBirth == 5) {
+                        return"Friday"
+                    }
+                    else if (dayOfBirth == 6) {
+                        return"Saturday"
+                    }
+                }
+
+                // alert(akanMaleNames);
+
 
 
             }
         }
+
+        exactDay()
 }
